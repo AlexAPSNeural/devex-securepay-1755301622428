@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevEx SecurePay</title>
+    <style>
+        body, h1, h2, p, a {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        body {
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .hero {
+            background: #007bff;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+        .feature {
+            background: white;
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            flex-basis: calc(33.333% - 20px);
+        }
+        @media (max-width: 768px) {
+            .feature {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .features, .feature {
+                flex-direction: column;
+                align-items: center;
+            }
+            .feature {
+                flex-basis: 100%;
+            }
+        }
+        footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DevEx SecurePay</h1>
+    </header>
+    <div class="hero">
+        <h2>Seamlessly Integrate Secure Payment Gateways</h2>
+        <p>API-first solution reducing transaction errors and compliance risks.<br> Increase customer satisfaction and revenue.</p>
+    </div>
+    <div class="container">
+        <div class="features">
+            <div class="feature">
+                <h2>API-First Design</h2>
+                <p>Built with an API-first approach to facilitate seamless integration into your existing systems.</p>
+            </div>
+            <div class="feature">
+                <h2>Enhanced Security</h2>
+                <p>Advanced security measures to ensure transactions are safe and compliant with industry standards.</p>
+            </div>
+            <div class="feature">
+                <h2>Reduce Errors</h2>
+                <p>Minimize transaction errors with robust error-handling mechanisms and real-time monitoring tools.</p>
+            </div>
+            <div class="feature">
+                <h2>Customer Satisfaction</h2>
+                <p>Deliver a smoother checkout experience to enhance customer satisfaction and loyalty.</p>
+            </div>
+            <div class="feature">
+                <h2>Increased Revenue</h2>
+                <p>By reducing errors and improving experience, drive higher conversion rates and increased revenue.</p>
+            </div>
+            <div class="feature">
+                <h2>Compliance Assurance</h2>
+                <p>Ensure all transactions are compliant with the latest financial regulations and standards.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 DevEx SecurePay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
