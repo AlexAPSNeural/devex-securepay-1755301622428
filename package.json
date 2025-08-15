@@ -1,0 +1,17 @@
+{
+  "name": "devex-securepay",
+  "version": "1.0.0",
+  "description": "Offers an API-first solution for developers to integrate secure payment gateways seamlessly, reducing transaction errors and compliance risks, leading to higher customer satisfaction and increased revenue.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
